@@ -1,0 +1,20 @@
+------------------------------------
+File name: explanation.txt
+Date: 10/14/2013
+Programmer: Zhijiao Liu
+UIN: 522-00-4372
+Email: zhijiao.liu.imp@gmail.com
+MySQL software: MySQL Workbench 6.0
+------------------------------------
+This database is about the teams, players, coaches, schedules and contracts in NBA.
+This python program, named TransData.py, uses Python 2.7.5 with PyMySQL 0.6.1 to transform data from the original .txt files to MySQL database. All the transformed data are from www.nba.com and hoopshype.com. 
+The basic process is shown as follows:
+1. Use createTable.sql to create NBA schema in MySQL database.
+2. Use TransData.py to build PyMySQL connection to connect to the MySql database.
+3. This Python program uses execute statement to generate SQL statements.
+4. Use for loop to read data from the .txt files and transform those data to database.
+5. Disconnect the database.
+
+Notes: 
+If inserting duplicate values, Python program will show an error.
+There are no synthetic data, because all the inserted data come from the website.

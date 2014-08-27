@@ -1,0 +1,8 @@
+Name: Zhijiao Liu
+UIN: 512 00 4372
+----------------
+Objective:
+Build a NBA database containing all the teams, players, contracts, coaches and game schedules in 2013-2014.
+
+Motivation:
+As one of the Big Four Leagues, NBA has 30 teams and more than 500 players now. Putting all the important data of NBA teams, players, contracts, coaches and schedules of 13-14 season in database not only increases the searching speed, but also ensures that users can do some calculation and comparison with this NBA database. This database works on amount of data in NBA, and can help to quickly find the data that a user want. 
